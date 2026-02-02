@@ -47,31 +47,31 @@ const App: React.FC = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "Zero-Day Exploits",
-      desc: "Simulaciones de ataque de grado militar. Identificamos brechas críticas antes que los adversarios.",
-      icon: <Shield className="w-6 h-6 text-hacker-red" />,
-      price: "Classified"
+      title: "Basic Card",
+      desc: "Auditoría esencial de seguridad. Análisis de vulnerabilidades comunes y escaneo de puertos.",
+      icon: <Code className="w-6 h-6 text-hacker-green" />,
+      price: "$199"
     },
     {
       id: 2,
-      title: "Root access Audit",
-      desc: "Análisis profundo de kernel y binarios. Escalamos privilegios para encontrar la ruta al root.",
-      icon: <Code className="w-6 h-6 text-hacker-green" />,
-      price: "Per Module"
+      title: "Medium Card",
+      desc: "Pruebas de penetración estándar. Identificación de brechas en aplicaciones web y redes.",
+      icon: <Server className="w-6 h-6 text-yellow-500" />,
+      price: "$499"
     },
     {
       id: 3,
-      title: "Red Team Ops",
-      desc: "Asalto total a la infraestructura. Ingeniería social, bypass de firewall y exfiltración de data.",
-      icon: <Activity className="w-6 h-6 text-hacker-red" />,
-      price: "Retainer Available"
+      title: "Extreme Card",
+      desc: "Red Team Ops completo. Ingeniería social, bypass de firewall y persistencia avanzada.",
+      icon: <Shield className="w-6 h-6 text-hacker-red" />,
+      price: "$999"
     },
     {
       id: 4,
-      title: "Crypto Hardening",
-      desc: "Diseño de cifrado inquebrantable. Si no pueden leer tus datos, no son dueños de ellos.",
-      icon: <Server className="w-6 h-6 text-yellow-500" />,
-      price: "Consulting"
+      title: "Ultra Card",
+      desc: "Zero-Day Exploits y guerra cibernética simulada. Acceso total y control absoluto.",
+      icon: <Activity className="w-6 h-6 text-hacker-red" />,
+      price: "Classified"
     }
   ];
 
