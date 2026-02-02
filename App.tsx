@@ -162,7 +162,7 @@ const App: React.FC = () => {
 
               <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6 leading-[0.9] tracking-tight">
                 CONTROLA EL <span className="text-hacker-red">SISTEMA.</span><br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-hacker-green to-emerald-600 glitch-effect" data-text="DOMINA EL MUNDO">DOMINA EL MUNDO</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-hacker-green to-hacker-dim glitch-effect" data-text="DOMINA EL MUNDO">DOMINA EL MUNDO</span>
               </h1>
 
               <p className="text-lg text-slate-400 mb-8 max-w-lg leading-relaxed font-mono">
@@ -191,7 +191,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
                 <div className="text-slate-400">
-                  <span className="text-hacker-red">import</span> <span className="text-white">Exploit</span> <span className="text-hacker-red">from</span> <span className="text-green-300">'./darkweb'</span>;<br />
+                  <span className="text-hacker-red">import</span> <span className="text-white">Exploit</span> <span className="text-hacker-red">from</span> <span className="text-hacker-green">'./darkweb'</span>;<br />
                   <br />
                   <span className="text-hacker-dim">// Initializing buffer overflow</span><br />
                   <span className="text-purple-400">const</span> <span className="text-white">target</span> = <span className="text-hacker-green">useTarget</span>(<span className="text-white">"banking_sys"</span>);<br />
@@ -304,14 +304,14 @@ const App: React.FC = () => {
             {courses.map((course) => (
               <div key={course.id} className="relative group overflow-hidden rounded-none bg-black border border-hacker-dim hover:border-hacker-green transition-all duration-300">
                 <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-                  <Globe className="w-24 h-24 text-green-500" />
+                  <Globe className="w-24 h-24 text-hacker-dim" />
                 </div>
 
                 <div className="p-8 h-full flex flex-col">
                   <div className="flex justify-between items-center mb-6">
                     <span className={`text-[10px] px-3 py-1 rounded-sm font-bold tracking-wider ${course.level === 'INTERMEDIO' ? 'bg-yellow-900/20 text-yellow-500 border border-yellow-800' :
                       course.level === 'EXPERTO' ? 'bg-red-900/20 text-red-500 border border-red-800' :
-                        'bg-green-900/20 text-green-500 border border-green-800'
+                        'bg-hacker-green/10 text-hacker-green border border-hacker-dim'
                       }`}>
                       {course.level}
                     </span>
