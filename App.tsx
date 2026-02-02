@@ -48,28 +48,28 @@ const App: React.FC = () => {
     {
       id: 1,
       title: "Basic Card",
-      desc: "Auditoría esencial de seguridad. Análisis de vulnerabilidades comunes y escaneo de puertos.",
+      desc: "Si compras este plan por una cantidad mucho menor tendrás $760.",
       icon: <Code className="w-6 h-6 text-hacker-green" />,
       price: "$199"
     },
     {
       id: 2,
       title: "Medium Card",
-      desc: "Pruebas de penetración estándar. Identificación de brechas en aplicaciones web y redes.",
+      desc: "Si compras este plan por una cantidad mucho menor tendrás $1,300.",
       icon: <Server className="w-6 h-6 text-yellow-500" />,
       price: "$499"
     },
     {
       id: 3,
       title: "Extreme Card",
-      desc: "Red Team Ops completo. Ingeniería social, bypass de firewall y persistencia avanzada.",
+      desc: "Si compras este plan por una cantidad mucho menor tendrás $1,580.",
       icon: <Shield className="w-6 h-6 text-hacker-red" />,
       price: "$999"
     },
     {
       id: 4,
       title: "Ultra Card",
-      desc: "Zero-Day Exploits y guerra cibernética simulada. Acceso total y control absoluto.",
+      desc: "Si compras este plan por una cantidad mucho menor tendrás $1,840.",
       icon: <Activity className="w-6 h-6 text-hacker-red" />,
       price: "Classified"
     }
