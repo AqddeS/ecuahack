@@ -24,11 +24,11 @@
             display: ['"Rajdhani"', 'sans-serif'],
           },
           colors: {
-            'hacker-green': '#00ff41',
-            'hacker-dim': '#008F11',
-            'hacker-red': '#ff0000',
-            'deep-black': '#000000',
-            'dark-panel': '#0a0a0a',
+            'hacker-green': '#ccff00', // Radar Green
+            'hacker-dim': '#4b5320',   // Olive Drab
+            'hacker-red': '#ffae00',   // Tactical Orange/Amber
+            'deep-black': '#050a05',   // Camo Black
+            'dark-panel': '#0f1a0f',   // Dark Olive Panel
           },
           animation: {
             'spin-slow': 'spin 20s linear infinite',
@@ -48,13 +48,13 @@
   </script>
   <style>
     body {
-      background-color: #000000;
-      color: #00ff41;
+      background-color: #050a05;
+      color: #ccff00;
       overflow-x: hidden;
     }
 
     ::selection {
-      background: #00ff41;
+      background: #ccff00;
       color: #000000;
     }
 
@@ -64,17 +64,17 @@
     }
 
     ::-webkit-scrollbar-track {
-      background: #000000;
-      border-left: 1px solid #003300;
+      background: #050a05;
+      border-left: 1px solid #4b5320;
     }
 
     ::-webkit-scrollbar-thumb {
-      background: #003300;
-      border: 1px solid #00ff41;
+      background: #4b5320;
+      border: 1px solid #ccff00;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-      background: #00ff41;
+      background: #ccff00;
     }
 
     .glitch-effect {
@@ -93,14 +93,14 @@
 
     .glitch-effect::before {
       left: 2px;
-      text-shadow: -1px 0 #00ff41;
+      text-shadow: -1px 0 #ccff00;
       clip: rect(44px, 450px, 56px, 0);
       animation: glitch-anim 5s infinite linear alternate-reverse;
     }
 
     .glitch-effect::after {
       left: -2px;
-      text-shadow: -1px 0 #ff0000;
+      text-shadow: -1px 0 #ffae00;
       clip: rect(44px, 450px, 56px, 0);
       animation: glitch-anim2 5s infinite linear alternate-reverse;
     }

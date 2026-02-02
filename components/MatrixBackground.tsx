@@ -25,12 +25,12 @@ const MatrixBackground: React.FC = () => {
     }
 
     const draw = () => {
-      // Dark slate with opacity for trails
-      ctx.fillStyle = 'rgba(2, 6, 23, 0.05)';
+      // Dark camo for trails
+      ctx.fillStyle = 'rgba(5, 10, 5, 0.05)';
       ctx.fillRect(0, 0, width, height);
 
-      // Green text
-      ctx.fillStyle = '#00ff41'; // Hacker Green
+      // Radar Green text
+      ctx.fillStyle = '#ccff00'; // Radar Green
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
